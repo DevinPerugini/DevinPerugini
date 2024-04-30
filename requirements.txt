@@ -1,1 +1,4 @@
 matplotlib.pyplot
+pydeck
+pandas
+streamlit
