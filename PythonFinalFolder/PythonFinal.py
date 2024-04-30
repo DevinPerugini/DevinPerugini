@@ -20,7 +20,6 @@ st.set_page_config(
 #[DA1]
 def bridge_data():
     df = pd.read_csv('bridges_georgia_dataset.csv').set_index("Structure Number")
-    df.fillna("No Data Present", inplace=True)
 
     return df
 #[PY3] first usage
